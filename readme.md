@@ -11,16 +11,6 @@
 
 ## [Object-Oriented Programming](https://hyelie.tistory.com/category/CS/OOP)
  - [객체 지향 프로그래밍](https://hyelie.tistory.com/entry/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-Object-Oriented-Programming)
-    - [캡슐화 Encapsulation]()
-      - 접근 제한자
-    - [상속 Inheritance]()
-      - 상속 시 접근 제한자
-      - 상속 시 constructor, destructor
-      - abstract
-      - super
-    - [다형성 Polymorphism](https://hyelie.tistory.com/entry/%EB%8B%A4%ED%98%95%EC%84%B1-Polymorphism)
-      - class의 다형성
-      - function 다형성
     - [객체지향 설계 원칙 The SOLID Principles]()
  - [클린 코드 Clean Code]()
  - [클린 아키텍처 Clean Architecture]()
@@ -40,20 +30,27 @@
 # 언어 & 프레임워크
 
 ## [Java]()
- - [final]()
- - [static]()
- - [참조 자료형]()
- - [class의 사용]()
-   - constructor, destructor
-   - class는 메모리 어디에 올라갈까?
-      - static은 어디에 저장될까?
-   - class의 용량(attribute size 총 합)
-   - static method
+ 
+ - [참조 자료형, call by value](https://hyelie.tistory.com/entry/Data-types-String-constant-pool-Call-by-value)
+ - [class의 사용](https://hyelie.tistory.com/entry/Java-Class)
  - [상속]()
+   - 상속 시 접근 제한자
+   - 상속 시 constructor, destructor
+   - abstract
+   - super 
+ - [다형성]
+   - polymorphism(overriding, overloading, virtual)
+   - 객체의 다형성
+   - method 다형성
+ - [interface]()
  - [generic]()
- - [main 함수가 실행될 때 일어나는 일]()
  - [JVM]()
+  - memory 구조, 어떤 데이터가 각각의 메모리에 올라가는지, GC 작동 방식
+  - string pool에 대한 작동 방식
  - [enum]()
+  - string enum 사용 (bizkicks 참고)
+ - [annotation]()
+ - [main 함수가 실행될 때 일어나는 일]()
  - [try-catch-final에서 리턴 처리]()
 
 ## [Spring]()
