@@ -30,27 +30,42 @@
 
 ## [Java]()
  
- - [참조 자료형, call by value](https://hyelie.tistory.com/entry/Data-types-String-constant-pool-Call-by-value)
+ - [data type, call by value](https://hyelie.tistory.com/entry/Data-types-String-constant-pool-Call-by-value)
  - [class의 사용](https://hyelie.tistory.com/entry/Java-Class)
+   - access modifier
+   - identity, equality
+ - [static, final](https://hyelie.tistory.com/entry/Java-static-final)
  - [상속]()
    - 상속 시 접근 제한자
    - 상속 시 constructor, destructor
-   - abstract
+   - abstract class
+   - interface
    - super 
- - [다형성]
-   - polymorphism(overriding, overloading, virtual)
-   - 객체의 다형성
-   - method 다형성
- - [interface]()
+ - [다형성]()
+   - virtual
+   - binding
+     - static binding (method polymorphism : overriding)
+     - dynamic binding (class polymorphism : overloading)
+   - interface
  - [generic]()
  - [JVM]()
-  - memory 구조, 어떤 데이터가 각각의 메모리에 올라가는지, GC 작동 방식
-  - string pool에 대한 작동 방식
+   - java의 실행 방식
+   - memory 구조, 어떤 데이터가 각각의 메모리에 올라가는지, GC 작동 방식
+   - method, heap, stack
+   - instance variable, class variable(static), local variable
+   - string pool에 대한 작동 방식
+ - [main 함수가 실행될 때 일어나는 일]()
+ - [try-catch-final에서 리턴 처리]()
+
+ - [thread]
+  - thread-safe
+  - 동시성 이슈
  - [enum]()
   - string enum 사용 (bizkicks 참고)
  - [annotation]()
- - [main 함수가 실행될 때 일어나는 일]()
- - [try-catch-final에서 리턴 처리]()
+ - [wrapper class]()
+ - [String, StringBuffer, StringBuilder]()
+ - [serialize]
 
 ## [Spring]()
  - [JPA와 영속성]()
