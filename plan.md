@@ -5,7 +5,6 @@
 하루에 daily leetcode challenge 문제 풀고, 프로그래머스 lv3까지 쭉 풀면 될 듯.
 주말에는 하루 날 잡고 leetcode weekly challenge 도전하면 될 듯.
 프로그래머스 끝나면 leetcode 쭉 풀자.
-유의점- 
 
 2. CS
 나머지 연등시간에 개념공부 하면 될 것 같다.
@@ -36,3 +35,9 @@ Spring - Git - MySQL - Docker
 패시브
 data structure - alglrothm + PS
  - 하면서 그때그때
+
+참고할 만한 책들
+ - 리팩토링 2판
+ - 테스트 주도 개발
+ - DDD Start!
+ - 이펙티브 자바
