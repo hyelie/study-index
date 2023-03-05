@@ -69,7 +69,7 @@
 - [generic](https://hyelie.tistory.com/entry/Java-Generic)
   - generic의 유의점
   - type 제한
-    - <T>와 <?>의 차이
+    - `<T>`와 `<?>`의 차이
   - generic의 장점
   - heap pollution
 - [primitive wrapper class](https://hyelie.tistory.com/entry/Java-Primitive-Wrapper-Class)
