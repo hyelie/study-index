@@ -2,3 +2,5 @@
 *.hwp
 *.ppt
 java/*
+java/**/*.*
+java/**/*

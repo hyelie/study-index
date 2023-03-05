@@ -30,7 +30,6 @@
 # 언어 & 프레임워크
 
 ## [Java]()
-
 - [data type, call by value](https://hyelie.tistory.com/entry/Data-types-String-constant-pool-Call-by-value)
   - string pool에 대한 작동 방식
 - [class의 사용](https://hyelie.tistory.com/entry/Java-Class)
@@ -73,27 +72,35 @@
     - <T>와 <?>의 차이
   - generic의 장점
   - heap pollution
-- [wrapper class와 immutable](https://hyelie.tistory.com/entry/Java-Primitive-Wrapper-Class)
+- [primitive wrapper class](https://hyelie.tistory.com/entry/Java-Primitive-Wrapper-Class)
   - wrapper class의 정의와 특징
   - wrapper class의 비교함수, equals()
   - immutable의 중요성
 - [String, StringBuffer, StringBuilder](https://hyelie.tistory.com/entry/Java-String-vs-StringBuffer-vs-StringBuilder)
   - 원리와 차이점
-- [thread]()
-  - thread-safe
-  - 동시성 이슈
-  - callable과 runnable
-- [serialize, NIO]()
-- [Collection 비교]()
-  - Stack, Queue
-  - ArrayList, Vector, LinkedList
-  - HashSet, TreeSet
-  - HashMap, HashTable, TreeMap, Properties
-- [가능하면 lambda, stream]()
-  - 언제, 왜 쓰는지 정도만이라도 간단하게
+- [thread](https://hyelie.tistory.com/entry/Java-Multi-Thread)
+  - thread 생성과 실행 방법
+    - run()과 start()의 차이
+  - runnable과 callable의 차이
+  - JVM thread scheduling 규칙
+  - JVM thread pool
+- [Collection 비교](https://hyelie.tistory.com/entry/Java-Collection)
+  - List
+    -  ArrayList, LinkedList, Vector, Stack
+  - Queue
+    - PriorityQueue, ArrayDeque
+  - Set
+    - HashSet, LinkedHashSet, TreeSet
+  - Map
+    - HashMap, LinkedHashMap, TreeMap, Hashtable, Properties
+- lambda, stream
+  - lambda : 식별자 없이 실행가능한 함수이며 함수형 프로그래밍에 사용한다.
+  - stream : collection 직접순회는 collection iterator를 받아오고 처리하는 코드를 써야 한다. 그렇지만 stream은 각 요소에서 어떤 처리를 할지만 전달해 주고 처리는 collection 내부에서 일어나며 병렬 처리가 되기 떄문에 더 빠르다.
+  - 언제, 왜 쓰는지 정도만이라도 간단하게 알아두자.
+- serialize
+  - object를 byte[]로 만들어서 외부에서 사용가능하게 만드는 것.
 
-## [
-Spring]()
+## [Spring]()
  - [JPA와 영속성]()
  - [Spring Properties, Spring Profiles]()
 

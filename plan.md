@@ -33,11 +33,5 @@ network
 Spring - Git - MySQL - Docker
 
 패시브
-data structure - alglrothm + PS
+data structure - algriothm + PS
  - 하면서 그때그때
-
-참고할 만한 책들
- - 리팩토링 2판
- - 테스트 주도 개발
- - DDD Start!
- - 이펙티브 자바
