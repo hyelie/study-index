@@ -15,6 +15,9 @@
    - [Single Responsibility Principle](https://hyelie.tistory.com/entry/OOP-SOLID-Single-Responsibility-Principle)
    - [Open Closed Princile](https://hyelie.tistory.com/entry/OOP-SOLID-Open-Closed-Principle)
    - [Liskov Substitution Principle](https://hyelie.tistory.com/entry/OOP-SOLID-Liskov-Substitution-Principle)
+   - [Interface Segregation Principle](https://hyelie.tistory.com/entry/OOP-SOLID-Interface-Segregation-Principle)
+   - [Dependency Inversion Principle](https://hyelie.tistory.com/entry/OOP-SOLID-Dependency-Inversion-Principle)
+   - [SOLID 정리](https://hyelie.tistory.com/entry/OOP-SOLID-%EC%A0%95%EB%A6%AC)
  - [클린 코드 Clean Code]()
  - [클린 아키텍처 Clean Architecture]()
 
