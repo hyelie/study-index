@@ -18,8 +18,8 @@
    - [Interface Segregation Principle](https://hyelie.tistory.com/entry/OOP-SOLID-Interface-Segregation-Principle)
    - [Dependency Inversion Principle](https://hyelie.tistory.com/entry/OOP-SOLID-Dependency-Inversion-Principle)
    - [SOLID 정리](https://hyelie.tistory.com/entry/OOP-SOLID-%EC%A0%95%EB%A6%AC)
- - [클린 코드 Clean Code]()
- - [클린 아키텍처 Clean Architecture]()
+ - [클린 코드 Clean Code](https://hyelie.tistory.com/entry/%EB%8B%A4%EC%8B%9C-%EC%93%B0%EB%8A%94-Clean-Code)
+ - [클린 아키텍처 Clean Architecture](https://hyelie.tistory.com/entry/Clean-Architecture-%EC%A0%95%EB%A6%AC)
 
 ## [Data Structure]()
 
