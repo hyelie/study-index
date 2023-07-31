@@ -1,8 +1,11 @@
+# CS
+개발자로써 공부한 내용들을 한 눈에 보기 쉽게 정리한 공간입니다.
+
 [계획](https://hyelie.tistory.com/entry/230219-%EC%B7%A8%EC%A4%80-%EA%B3%84%ED%9A%8D)
 
 <br>
 
-# Computer Science
+## Computer Science
 ### [Object-Oriented Programming](./computer%20science/object%20oriented%20programming/README.md)
 <details>
 <summary>목록만 보기</summary>
@@ -131,7 +134,7 @@
 
 <br>
 
-# 언어 & 프레임워크
+## 언어 & 프레임워크
 ### [Java](./language%20%26%20framework/java/README.md)
 <details>
 <summary>목록만 보기</summary>
@@ -199,7 +202,7 @@
 
 <br>
 
-# [개발 관련 지식]()
+## 개발 관련 지식
 - MVC 구조
 - 디자인 패턴
   - coupling
