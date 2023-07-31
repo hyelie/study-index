@@ -1,0 +1,52 @@
+# 1%의 Network
+### web browser에 domain 입력 시 발생하는 일
+- [web browser](https://hyelie.tistory.com/entry/Network-1%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-1-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EA%B0%80-%ED%95%98%EB%8A%94-%EC%9D%BC)
+    - URL
+        - URL, URI, URN
+    - HTTP request message
+        - status code, HTTP method
+    - DNS
+        - DNS의 구조
+        - name resolution 과정
+    - socket
+- [protocol stack, LAN adapter](https://hyelie.tistory.com/entry/Network-1%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-2-OS%EC%99%80-LAN-Adapter)
+    - TCP
+        - 3 way handshake
+            - SYN, ACK
+        - 데이터 송/수신
+            - window, sequence, ACK
+        - 4 way handshake
+            - FIN, ACK
+    - UDP
+    - IP
+        - MAC address
+        - ARP
+    - LAN adapter
+        - preamble, frame check sequence
+    - ethernet
+        - ethernet packet 운반 과정
+- [cable, hub, router](https://hyelie.tistory.com/entry/Network-1%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-3-Hub-Router-Switch)
+    - twisted pair cable
+    - hub
+        - hub의 동작
+        - repeater hub
+        - switching hub, full duplex
+    - router
+        - router의 동작
+        - address aggregation
+        - fragmentation
+        - NAT
+- [인터넷 내부](https://hyelie.tistory.com/entry/Network-1%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-4-%EC%9D%B8%ED%84%B0%EB%84%B7-%EB%82%B4%EB%B6%80)
+    - access network
+    - tunneling
+    - provider
+        - PoP, NOC, IX
+        - BGP
+- [proxy, 방화벽, load balancing](https://hyelie.tistory.com/entry/Network-1%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-5-Firewall-Proxy-Load-Balance)
+    - proxy의 개념
+        - forward proxy, reverse proxy
+    - 방화벽
+    - load balancing
+        - DNS server, cache server, load balancer
+    - content delivery service
+- [web server](https://hyelie.tistory.com/entry/Network-1%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-6-%EB%A7%88%EB%AC%B4%EB%A6%AC-Web-Server-Response)

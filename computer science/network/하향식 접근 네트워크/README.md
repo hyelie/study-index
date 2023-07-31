@@ -1,0 +1,101 @@
+# 하향식 접근 네트워크
+- [introduction](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-1-Introduction)
+    - network edge
+        - access network
+    - network core
+        - circuit switching, packet switching
+        - ISP hierarhcy
+    - network metric
+        - delay, loss, throughput
+    - layer
+        - OSI 7 layer, 각 layer의 역할
+        - PDU
+- application layer
+    - [principle](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-2-Application-Layer-1-Application-Principle)
+        - application architecture
+        - socket
+        - application layer의 기능
+    - [HTTP](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-2-Application-Layer-2-HTTP)
+        - HTTP의 특징
+        - HTTP message
+            - HTTP method, status code
+        - cookie
+        - web cache(proxy)
+    - [mail protocol](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-2-Application-Layer-3-SMTP-POP3-IMAP)
+        - mail system 구성
+        - mail 보내는 과정
+        - POP3, IAMP, SMTP
+            - mail access protocol
+    - [DNS](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-2-Application-Layer-4-DNS)
+        - DNS의 기능
+        - decentralized인 이유
+        - DNS hierarchy
+        - name resolution 과정
+            - iteration query, recursive query
+        - DNS 등록 과정
+    - [P2P](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-2-Application-Layer-5-P2P)
+        - P2P의 특징
+- transport layer
+    - [principle](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-3-Transport-Layer-1-Principles-UDP)
+        - transport layer의 기능
+        - multiplexing, demultiplexing
+            - TCP의 경우, UDP의 경우
+    - [UDP](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-3-Transport-Layer-1-Principles-UDP)
+        - UDP의 특징
+        - checksum
+    - [TCP](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-3-Transport-Layer-2-TCP)
+        - TCP의 특징
+        - reliable data transfer
+            - checksum, ACK, timer, sequence, window
+        - TCP의 동작
+            - 3 way handshake, data 송/수신 과정, 4 way handshake
+                - fast retransmit(3 duplicated ACK)
+            - flow control
+            - congestion control
+                - TCP의 loss 감지
+        - TCP 성능
+            - throughput, fairness
+- network layer
+    - [principle](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-4-Network-Layer-1-Principles-Virtual-Circuit-Datagram-Network)
+        - network layer의 기능
+    - [virtual circuit, datagram network](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-4-Network-Layer-1-Principles-Virtual-Circuit-Datagram-Network)
+    - [router](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-4-Network-Layer-2-Router%EC%9D%98-%EB%82%B4%EB%B6%80)
+        - router의 핵심 기능
+    - [IP](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-4-Network-Layer-3-Internet-Protocol)
+        - IP
+            - fragmentation & reassembly
+            - IPv4 addressing
+                - CIDR
+                - DHCP
+                - route aggregation
+                - NAT
+                    - NAT에서 port를 쓰는 이유
+                    - NAT의 문제점
+            - IPv6 addressing
+                - tunneling
+        - ICMP
+            - ICMP의 정의
+        - [routing protocol](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-4-Network-Layer-4-Routing-Protocol)
+            - link state, distance vector
+            - [hierarchical routing](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-4-Network-Layer-5-Routing-in-the-Internet)
+                - intra AS routing
+                    - RIP, OSPF, hierarchical OSPF
+                - inter AS routing
+                    - BGP의 경로 결정 과정
+                        - policy decision
+                        - route selection
+    - [broadcast, multicast](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-4-Network-Layer-6-Broadcast-Multicast)
+        - broadcast, multicast의 정의
+        - multicast spanning tree
+- [link layer](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-5-Link-Layer)
+    - link layer가 하는 일
+    - MAC address
+    - ARP 과정
+    - ethernet packet 전송 과정
+- [application layer에서 link layer까지 정리](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-5-Link-Layer)
+- [mobile network](https://hyelie.tistory.com/entry/Network-%ED%95%98%ED%96%A5%EC%8B%9D-%EC%A0%91%EA%B7%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-6-Mobile-Networks)
+    - wireless network component
+    - wireless network 종류
+    - mulciple access protocol
+        - CSMA/CD, CSMA/CA, CDMA
+    - indirect routing

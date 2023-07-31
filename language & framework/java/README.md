@@ -1,0 +1,78 @@
+# Java
+- [data type, call by value](https://hyelie.tistory.com/entry/Data-types-String-constant-pool-Call-by-value)
+    - java data type 2종류
+    - string pool에 대한 작동 방식
+- [class의 사용](https://hyelie.tistory.com/entry/Java-Class)
+    - access modifier
+    - identity, equality
+        - hashCode()
+- [static, final](https://hyelie.tistory.com/entry/Java-static-final)
+    - static, final, static final
+- [상속 inheritance](https://hyelie.tistory.com/entry/Java-Inheritance)
+    - access modifier에 따른 member 접근 여부
+    - super
+    - overriding
+        - private method를 override한 경우
+    - diamond problem
+- [다형성 polymorphism](https://hyelie.tistory.com/entry/Java-Polymorphism)
+    - static polymorphism(overloading)
+    - dynamic polymorphism(overriding)
+        - downcasting
+    - static method의 polymorphism
+- [abstract class vs interface](https://hyelie.tistory.com/entry/Java-abstract-class-vs-interface)
+    - abstract class
+        - 특징과 사용 이유
+    - interface
+        - 특징과 사용 이유
+        - default method와 multiple inheritance
+    - abstract class와 interface 사용 목적의 차이
+- [예외처리 exception handling](https://hyelie.tistory.com/entry/Java-Exception-Handling)
+    - Throwable hierarchy
+        - check / unchecked exception
+    - try-catch-finally에서 리턴 처리
+    - try-with-resource
+    - 예외처리 방법의 종류
+- [JVM](https://hyelie.tistory.com/entry/Java-Java-Virtual-Machine)
+    - JDK, JRE, JVM
+    - JVM 구조
+        - java의 실행 과정
+        - 어떤 데이터가 각각의 메모리에 올라가는지
+        - instance variable, class variable(static), local variable, parameter는 각각 어디에 올라갈까?
+    - main() method 실행 시 일어나는 일
+    - garbage collector
+- [generic](https://hyelie.tistory.com/entry/Java-Generic)
+    - generic의 유의점
+    - type 제한, wildcard
+        - `<T>`와 `<?>`의 차이
+    - heap pollution
+- [primitive wrapper class](https://hyelie.tistory.com/entry/Java-Primitive-Wrapper-Class)
+    - wrapper class의 정의와 특징
+    - wrapper class의 비교함수, equals()
+        - ==와 equals()의 차이
+    - constant pool caching
+    - immutable의 중요성
+- [String, StringBuffer, StringBuilder](https://hyelie.tistory.com/entry/Java-String-vs-StringBuffer-vs-StringBuilder)
+    - 원리와 차이점
+        - JVM에 저장되는 위치? mutable? thread-safe?
+- [thread](https://hyelie.tistory.com/entry/Java-Multi-Thread)
+    - thread 생성과 실행 방법
+        - run(), start()
+    - runnable과 callable의 차이
+    - JVM thread scheduling 규칙
+    - JVM thread pool
+- [Collection 비교](https://hyelie.tistory.com/entry/Java-Collection)
+    - List
+        -  ArrayList, LinkedList, Vector, Stack
+    - Queue
+        - PriorityQueue, ArrayDeque
+    - Set
+        - HashSet, LinkedHashSet, TreeSet
+    - Map
+        - HashMap, LinkedHashMap, TreeMap, Hashtable, Properties
+    - 중복 허용? 순서? 정렬? thread-safe? 구현?
+- lambda, stream
+    - lambda : 식별자 없이 실행가능한 함수이며 함수형 프로그래밍에 사용한다.
+    - stream : collection 직접순회는 collection iterator를 받아오고 처리하는 코드를 써야 한다. 그렇지만 stream은 각 요소에서 어떤 처리를 할지만 전달해 주고 처리는 collection 내부에서 일어나며 병렬 처리가 되기 떄문에 더 빠르다.
+  - 언제, 왜 쓰는지 정도만이라도 간단하게 알아두자.
+- serialize
+    - object를 byte[]로 만들어서 외부에서 사용가능하게 만드는 것.
